@@ -1,0 +1,18 @@
+#  uscap_main.txt
+#
+#  Discussion:
+#
+#    Latitude and longitude for the 50 US state capitals.
+#
+#  Modified:
+#
+#    15 July 2011
+#
+#  Author:
+#
+#    John Burkardt
+#
+size  50
+geom  sphere
+ll    uscap_ll.txt
+name  uscap_name.txt

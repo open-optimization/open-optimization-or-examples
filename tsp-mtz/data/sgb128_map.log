@@ -1,0 +1,266 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  7 SEP 2019 14:00
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**sgb128_map.tex
+(./sgb128_map.tex
+LaTeX2e <2017-04-15>
+Babel <3.10> and hyphenation patterns for 84 language(s) loaded.
+\unit=\dimen102
+./sgb128_map.tex:17: Undefined control sequence.
+l.17 \setbox0=\hbox{\fivesy
+                           \char15}
+? 
+Missing character: There is no ^^O in font nullfont!
+\dotbox=\box26
+./sgb128_map.tex:18: Undefined control sequence.
+l.18 ...x \setbox\dotbox=\hbox{\kern-.5\wd0\fivesy
+                                                  \char15} \wd\dotbox=0pt
+? 
+Missing character: There is no ^^O in font nullfont!
+\fudge=\dimen103
+./sgb128_map.tex:19: Undefined control sequence.
+l.19 \newdimen\fudge \setbox0=\hbox{\fiverm
+                                            p} \fudge=-\dp0
+? 
+Missing character: There is no p in font nullfont!
+\vertpos=\dimen104
+
+./sgb128_map.tex:31: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.31 \noindent
+              
+? 
+./sgb128_map.tex:32: Undefined control sequence.
+\\...{\kern #2\unit \raise #3\unit \hbox {\fiverm 
+                                                  #1}}\wd 0=0pt \box 0
+l.32 \\Ravenna, OH (3707,2103,4188,2166)
+                                        
+? 
+Missing character: There is no R in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no O in font nullfont!
+Missing character: There is no H in font nullfont!
+./sgb128_map.tex:33: Undefined control sequence.
+\\...{\kern #2\unit \raise #3\unit \hbox {\fiverm 
+                                                  #1}}\wd 0=0pt \box 0
+l.33 \\Reading, PA (4735,2050,4719,2041)
+                                        
+? 
+Missing character: There is no R in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no P in font nullfont!
+Missing character: There is no A in font nullfont!
+./sgb128_map.tex:34: Undefined control sequence.
+\\...{\kern #2\unit \raise #3\unit \hbox {\fiverm 
+                                                  #1}}\wd 0=0pt \box 0
+l.34 \\Red Bluff, CA (-415,2034,88,2019)
+                                        
+? 
+Missing character: There is no R in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no B in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no C in font nullfont!
+Missing character: There is no A in font nullfont!
+./sgb128_map.tex:35: Undefined control sequence.
+\\...{\kern #2\unit \raise #3\unit \hbox {\fiverm 
+                                                  #1}}\wd 0=0pt \box 0
+l.35 \\Regina, SA (1535,3575,1847,3555)
+                                       
+? 
+Missing character: There is no R in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no S in font nullfont!
+Missing character: There is no A in font nullfont!
+./sgb128_map.tex:36: Undefined control sequence.
+\\...{\kern #2\unit \raise #3\unit \hbox {\fiverm 
+                                                  #1}}\wd 0=0pt \box 0
+l.36 \\Reno, NV (306,1940,331,1920)
+                                   
+? 
+Missing character: There is no R in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no N in font nullfont!
+Missing character: There is no V in font nullfont!
+./sgb128_map.tex:37: Undefined control sequence.
+\\...{\kern #2\unit \raise #3\unit \hbox {\fiverm 
+                                                  #1}}\wd 0=0pt \box 0
+l.37 \\Rhinelander, WI  (3222,2860,3370,2838)
+                                             
+? 
+Missing character: There is no R in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no W in font nullfont!
+Missing character: There is no I in font nullfont!
+./sgb128_map.tex:38: Undefined control sequence.
+\\...{\kern #2\unit \raise #3\unit \hbox {\fiverm 
+                                                  #1}}\wd 0=0pt \box 0
+l.38 \\Richfield, UT  (877,1737,1103,1807)
+                                          
+? 
+Missing character: There is no R in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no U in font nullfont!
+Missing character: There is no T in font nullfont!
+./sgb128_map.tex:39: Undefined control sequence.
+\|...{\kern #4\unit \raise #5\unit \hbox {\fiverm 
+                                                  #1,\llap {\lower 55\unit \...
+l.39 \|Richmond, IN .5(3620,1901,3823,1966)
+                                           
+? 
+Missing character: There is no R in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no I in font nullfont!
+Missing character: There is no N in font nullfont!
+./sgb128_map.tex:40: Undefined control sequence.
+\\...{\kern #2\unit \raise #3\unit \hbox {\fiverm 
+                                                  #1}}\wd 0=0pt \box 0
+l.40 \\Richmond, VA (4585,1572,4567,1623)
+                                         
+? 
+Missing character: There is no R in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no V in font nullfont!
+Missing character: There is no A in font nullfont!
+./sgb128_map.tex:41: Undefined control sequence.
+\\...{\kern #2\unit \raise #3\unit \hbox {\fiverm 
+                                                  #1}}\wd 0=0pt \box 0
+l.41 \\Roanoke, VA  (4136,1514,4318,1582)
+                                         
+? 
+Missing character: There is no R in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no k in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no V in font nullfont!
+Missing character: There is no A in font nullfont!
+./sgb128_map.tex:42: Undefined control sequence.
+\\...{\kern #2\unit \raise #3\unit \hbox {\fiverm 
+                                                  #1}}\wd 0=0pt \box 0
+l.42 \\Rochester, MN  (2696,2613,3066,2595)
+                                           
+? 
+Missing character: There is no R in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no M in font nullfont!
+Missing character: There is no N in font nullfont!
+./sgb128_map.tex:43: Undefined control sequence.
+\\...{\kern #2\unit \raise #3\unit \hbox {\fiverm 
+                                                  #1}}\wd 0=0pt \box 0
+l.43 \\Rochester, NY (4032,2445,4551,2466)
+                                          
+? 
+Missing character: There is no R in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no N in font nullfont!
+Missing character: There is no Y in font nullfont!
+./sgb128_map.tex:44: Undefined control sequence.
+\\...{\kern #2\unit \raise #3\unit \hbox {\fiverm 
+                                                  #1}}\wd 0=0pt \box 0
+l.44 \\Rockford, IL (2953,2277,3402,2332)
+                                         
+? 
+Missing character: There is no R in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no k in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no I in font nullfont!
+Missing character: There is no L in font nullfont!
+./sgb128_map.tex:45: Undefined control sequence.
+\\...{\kern #2\unit \raise #3\unit \hbox {\fiverm 
+                                                  #1}}\wd 0=0pt \box 0
+l.45 \\Rock Springs, WY (1014,2161,1389,2230)
+                                             
+? 
+Missing character: There is no R in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no k in font nu

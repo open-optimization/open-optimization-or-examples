@@ -1,0 +1,577 @@
+
+<!-- saved from url=(0064)https://people.sc.fsu.edu/~jburkardt/datasets/cities/cities.html -->
+<html class="gr__people_sc_fsu_edu"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>
+      CITIES - City Distance Datasets
+    </title>
+  </head>
+
+  <body bgcolor="#EEEEEE" link="#CC0000" alink="#FF3300" vlink="#000055" data-gr-c-s-loaded="true">
+
+    <h1 align="center">
+      CITIES <br> City Distance Datasets
+    </h1>
+
+    <hr>
+
+    <p>
+      <b>CITIES</b>
+      is a dataset directory which
+      contains files describing intercity distances.
+    </p>
+
+    <p>
+      This data can be used for
+      </p><ul>
+        <li>
+          traveling salesman problems (connected path through every city);
+        </li>
+        <li>
+          K-means calculations (find M spots that minimize total of the
+          distance from each city to its nearest spot);
+        </li>
+        <li>
+          K-medians calculations (make M of the cities "special", to minimize
+          the total distance from each city to its nearest special city);
+        </li>
+        <li>
+          Weighted K-means or K-medians (let the population of each city
+          be used as a weight, which makes some cities more important);
+        </li>
+        <li>
+          Minimal spanning trees (construct the shortest highway
+          system that connects all the cities, using only straight paths
+          from one city to another (ignore the possibility that two roads
+          could cross, or that a Y-shaped connector between three cities
+          might be cheaper);
+        </li>
+        <li>
+          Voronoi diagrams (assign each spot of land to the nearest city,
+          making "provinces");
+        </li>
+      </ul>
+    <p></p>
+
+    <h3 align="center">
+      Licensing:
+    </h3>
+
+    <p>
+      The computer code and data files described and made available on this web page
+      are distributed under
+      <a href="https://people.sc.fsu.edu/~jburkardt/txt/gnu_lgpl.txt">the GNU LGPL license.</a>
+    </p>
+
+    <h3 align="center">
+      Related Data and Programs:
+    </h3>
+
+    <p>
+      <a href="https://people.sc.fsu.edu/~jburkardt/cpp_src/asa058/asa058.html">
+      ASA058</a>,
+      a C++ library which
+      implements the K-means algorithm of Sparks.
+    </p>
+
+    <p>
+      <a href="https://people.sc.fsu.edu/~jburkardt/m_src/asa136/asa136.html">
+      ASA136</a>,
+      a MATLAB library which
+      implements the Hartigan and Wong clustering algorithm.
+    </p>
+
+    <p>
+      <a href="https://people.sc.fsu.edu/~jburkardt/f_src/cities/cities.html">
+      CITIES</a>,
+      a FORTRAN90 library which
+      handles various problems associated with a set of "cities" on a map.
+    </p>
+
+    <p>
+      <a href="https://people.sc.fsu.edu/~jburkardt/f_src/distance_to_position/distance_to_position.html">
+      DISTANCE_TO_POSITION</a>,
+      a FORTRAN90 program which
+      estimates the positions of cities based on a city-to-city distance table.
+    </p>
+
+    <p>
+      <a href="https://people.sc.fsu.edu/~jburkardt/m_src/distance_to_position/distance_to_position.html">
+      DISTANCE_TO_POSITION</a>,
+      a MATLAB program which
+      estimates the positions of cities based on a city-to-city distance table.
+    </p>
+
+    <p>
+      <a href="https://people.sc.fsu.edu/~jburkardt/m_src/distance_to_position_sphere/distance_to_position_sphere.html">
+      DISTANCE_TO_POSITION_SPHERE</a>,
+      a MATLAB program which
+      estimates the positions of cities on a sphere (such as the earth)
+      based on a city-to-city distance table.
+    </p>
+
+    <p>
+      <a href="https://people.sc.fsu.edu/~jburkardt/f_src/kmeans/kmeans.html">
+      KMEANS</a>,
+      a FORTRAN90 library which
+      contains several different algorithms for the K-Means problem.
+    </p>
+
+    <p>
+      <a href="https://people.sc.fsu.edu/~jburkardt/f77_src/kmedian/kmedian.html">
+      KMEDIAN</a>,
+      a FORTRAN77 program which
+      handles the K-Median problem.
+    </p>
+
+    <p>
+      <a href="https://people.sc.fsu.edu/~jburkardt/f_src/lau_np/lau_np.html">
+      LAU_NP</a>,
+      a FORTRAN90 library which
+      implements heuristic algorithms for various NP-hard combinatorial problems.
+    </p>
+
+    <p>
+      <a href="https://people.sc.fsu.edu/~jburkardt/datasets/spaeth/spaeth.html">
+      SPAETH</a>,
+      a dataset directory which
+      contains datasets for cluster analysis;
+    </p>
+
+    <p>
+      <a href="https://people.sc.fsu.edu/~jburkardt/f_src/spaeth/spaeth.html">
+      SPAETH</a>,
+      a FORTRAN90 library which
+      can cluster data according to various principles.
+    </p>
+
+    <p>
+      <a href="https://people.sc.fsu.edu/~jburkardt/datasets/spaeth2/spaeth2.html">
+      SPAETH2</a>,
+      a dataset directory which
+      contains datasets for cluster analysis;
+    </p>
+
+    <p>
+      <a href="https://people.sc.fsu.edu/~jburkardt/f_src/spaeth2/spaeth2.html">
+      SPAETH2</a>,
+      a FORTRAN90 library which
+      can cluster data according to various principles.
+    </p>
+
+    <p>
+      <a href="https://people.sc.fsu.edu/~jburkardt/f77_src/toms456/toms456.html">
+      TOMS456</a>,
+      a FORTRAN77 library which
+      implements the routing algorithm;
+      this is ACM TOMS algorithm 456.
+    </p>
+
+    <p>
+      <a href="https://people.sc.fsu.edu/~jburkardt/datasets/tsp/tsp.html">
+      TSP</a>,
+      a dataset directory which
+      contains test data for the traveling salesperson problem;
+    </p>
+
+    <h3 align="center">
+      Datasets:
+    </h3>
+
+    <p>
+      <b>CO04</b> gives the distances between 4 cities; the
+      goal is to choose some of the cities as distribution sites;
+      for each city, we then choose the FURTHEST distribution site,
+      so as to MAXIMIZE the total transportation cost to all cities.
+      </p><ul>
+        <li>
+          <a href="https://people.sc.fsu.edu/~jburkardt/datasets/cities/co04_main.txt">co04_main.txt</a>,
+          is the main file.
+        </li>
+        <li>
+          <a href="https://people.sc.fsu.edu/~jburkardt/datasets/cities/co04_dist.txt">co04_dist.txt</a>,
+          the city-to-city NONSYMMETRIC transportation matrix.
+        </li>
+        <li>
+          <a href="https://people.sc.fsu.edu/~jburkardt/datasets/cities/co04_weight.txt">co04_weight.txt</a>,
+          contains weights that may be applied to the cities.
+        </li>
+      </ul>
+    <p></p>
+
+    <p>
+      <b>GRID04</b> describes 4 "cities" on a simple grid.
+      </p><ul>
+        <li>
+          <a href="https://people.sc.fsu.edu/~jburkardt/datasets/cities/grid04_main.txt">grid04_main.txt</a>,
+          is the main file.
+        </li>
+        <li>
+          <a href="https://people.sc.fsu.edu/~jburkardt/datasets/cities/grid04_dist.txt">grid04_dist.txt</a>,
+          the city-to-city distance matrix.
+        </li>
+        <li>
+          <a href="https://people.sc.fsu.edu/~jburkardt/datasets/cities/grid04_xy.txt">grid04_xy.txt</a>,
+          the (X,Y) coordinates of each city.
+        </li>
+        <li>
+          <a href="https://people.sc.fsu.edu/~jburkardt/datasets/cities/grid04_xy.png">grid04_xy.png</a>,
+          a PNG image of
+          the (X,Y) coordinates of each city.
+        </li>
+      </ul>
+    <p></p>
+
+    <p>
+      <b>HA30</b> describes the airline distances, in hundreds
+      of miles, between 30 international cities.   For this problem,
+      the spherical geometry is significantly different from the planar
+      approximation.
+      </p><ul>
+        <li>
+          <a href="https://people.sc.fsu.edu/~jburkardt/datasets/cities/ha30_main.txt">ha30_main.txt</a>,
+          is the main file.
+        </li>
+        <li>
+          <a href="https://people.sc.fsu.edu/~jburkardt/datasets/cities/ha30_code.txt">ha30_code.txt</a>,
+          a code for each city.
+        </li>
+        <li>
+          <a href="https://people.sc.fsu.edu/~jburkardt/datasets/cities/ha30_dist.txt">ha30_dist.txt</a>,
+          the city-to-city distance matrix.
+        </li>
+        <li>
+          <a href="https://people.sc.fsu.edu/~jburkardt/datasets/cities/ha30_xyz.txt">ha30_xyz.txt</a>,
+          XYZ coordinates (in hundreds of miles) that can be assigned to the
+          cities, assuming the earth has a radius of 3,959 miles, so that the
+          great circle distances are approximately those given in the distance
+          table, estimated by the MATLAB program "distance_to_position_sphere".
+        </li>
+        <li>
+          <a href="https://people.sc.fsu.edu/~jburkardt/datasets/cities/ha30_name.txt">ha30_name.txt</a>,
+          the name of each city.
+        </li>
+      </ul>
+    <p></p>
+
+    <p>
+      <b>KN57</b> describes the distance in (integer) miles between 57 cities.
+      Since these are "highway miles", the distances are difficult to use
+      to construct an exact planar map.
+      </p><ul>
+        <li>
+          <a href="https://people.sc.fsu.edu/~jburkardt/datasets/cities/kn57_main.txt">kn57_main.txt</a>,
+          is the main file.
+        </li>
+        <li>
+          <a href="https://people.sc.fsu.edu/~jburkardt/datasets/cities/kn57_dist.txt">kn57_dist.txt</a>,
+          the city-to-city distance matrix.
+        </li>
+        <li>
+          <a href="https://people.sc.fsu.edu/~jburkardt/datasets/cities/kn57_xy.txt">kn57_xy.txt</a>,
+          the (X,Y) coordinates of each city, estimated from the distance table.
+        </li>
+        <li>
+          <a href="https://people.sc.fsu.edu/~jburkardt/datasets/cities/kn57_xy.png">kn57_xy.png</a>,
+          a PNG image of
+          the (X,Y) coordinates of each city.
+        </li>
+      </ul>
+    <p></p>
+
+    <p>
+      <b>LAU15</b> describes the distance between 15 cities,
+      and seeks a solution to the traveling salesman problem.
+      The XY data was computed as a least squares fit to the DIST data,
+      and so does not exactly correspond.
+      </p><ul>
+        <li>
+          <a href="https://people.sc.fsu.edu/~jburkardt/datasets/cities/lau15_main.txt">lau15_main.txt</a>,
+          is the main file.
+        </li>
+        <li>
+          <a href="https://people.sc.fsu.edu/~jburkardt/datasets/cities/lau15_dist.txt">lau15_dist.txt</a>,
+          the city-to-city distance matrix.
+        </li>
+        <li>
+          <a href="https://people.sc.fsu.edu/~jburkardt/datasets/cities/lau15_tsp.txt">lau15_tsp.txt</a>,
+          an itinerary that solves the traveling salesman problem.
+        </li>
+        <li>
+          <a href="https://people.sc.fsu.edu/~jburkardt/datasets/cities/lau15_xy.txt">lau15_xy.txt</a>,
+          the (X,Y) coordinates of each city,
+          estimated from the distance table.
+        </li>
+        <li>
+          <a href="https://people.sc.fsu.edu/~jburkardt/datasets/cities/lau15_xy.png">lau15_xy.png</a>,
+          a PNG image of
+          the (X,Y) coordinates of each city.
+        </li>
+      </ul>
+    <p></p>
+
+    <p>
+      <b>SGB128</b> describes 128 cities in North America.
+      </p><ul>
+        <li>
+          <a href="https://people.sc.fsu.edu/~jburkardt/datasets/cities/sgb128_main.txt">sgb128_main.txt</a>,
+          is the main file.
+        </li>
+        <li>
+          <a href="https://people.sc.fsu.edu/~jburkardt/datasets/cities/sgb128_dist.txt">sgb128_dist.txt</a>,
+          the city-to-city road distance matrix.
+        </li>
+        <li>
+          <a href="https://people.sc.fsu.edu/~jburkardt/datasets/cities/sgb128_dms.txt">sgb128_dms.txt</a>,
+          the latitude and longitude of each city.
+        </li>
+        <li>
+          <a href="https://people.sc.fsu.edu/~jburkardt/datasets/cities/sgb128_map.tex">sgb128_map.tex</a>,
+          a TeX file to draw a picture of the cities.
+        </li>
+        <li>
+          <a href="https://people.sc.fsu.edu/~jburkardt/datasets/cities/sgb128_map.png">sgb128_map.png</a>,
+          a PNG image of
+          the map of the cities.
+        </li>
+        <li>
+          <a href="https://people.sc.fsu.edu/~jburkardt/datasets/cities/sgb128_name.txt">sgb128_name.txt</a>,
+          the name of each city.
+        </li>
+        <li>
+          <a href="https://people.sc.fsu.edu/~jburkardt/datasets/cities/sgb128_weight.txt">sgb128_weight.txt</a>,
+          the weight (population) of each city.
+        </li>
+        <li>
+          <a href="https://people.sc.fsu.edu/~jburkardt/datasets/cities/sgb128_xy.txt">sgb128_xy.txt</a>,
+          the XY coordinates of the cities.
+        </li>
+        <li>
+          <a href="https://people.sc.fsu.edu/~jburkardt/datasets/cities/sgb128_xy.png">sgb128_xy.png</a>,
+          a PNG image of
+          the XY coordinates of the cities.
+        </li>
+      </ul>
+    <p></p>
+
+    <p>
+      <b>SH07</b> gives the distances between 7 cities; the
+      goal is to choose 3 of the cities as distribution sites
+      so as to minimize the total transportation cost to all cities.
+      </p><ul>
+        <li>
+          <a href="https://people.sc.fsu.edu/~jburkardt/datasets/cities/sh07_main.txt">sh07_main.txt</a>,
+          is the main file.
+        </li>
+        <li>
+          <a href="https://people.sc.fsu.edu/~jburkardt/datasets/cities/sh07_dist.txt">sh07_dist.txt</a>,
+          the city-to-city distance matrix.
+        </li>
+        <li>
+          <a href="https://people.sc.fsu.edu/~jburkardt/datasets/cities/ssh07_xy.txt">sh07_xy.txt</a>,
+          the XY coordinates of the cities,
+          estimated from the distance table.
+        </li>
+        <li>
+          <a href="https://people.sc.fsu.edu/~jburkardt/datasets/cities/sh07_xy.png">sh07_xy.png</a>,
+          a PNG image of
+          the XY coordinates of the cities.
+        </li>
+      </ul>
+    <p></p>
+
+    <p>
+      <b>SP11</b> describes 11 artificial cities, with
+      arbitrary integer distances.
+      </p><ul>
+        <li>
+          <a href="https://people.sc.fsu.edu/~jburkardt/datasets/cities/sp11_main.txt">sp11_main.txt</a>,
+          is the main file.
+        </li>
+        <li>
+          <a href="https://people.sc.fsu.edu/~jburkardt/datasets/cities/sp11_code.txt">sp11_code.txt</a>,
+          contains a code for each city.
+        </li>
+        <li>
+          <a href="https://people.sc.fsu.edu/~jburkardt/datasets/cities/sp11_dist.txt">sp11_dist.txt</a>,
+          the city-to-city distance matrix.
+        </li>
+        <li>
+          <a href="https://people.sc.fsu.edu/~jburkardt/datasets/cities/sp11_xy.txt">sp11_xy.txt</a>,
+          the (X,Y) coordinates of each city,
+          estimated from the distance table.
+        </li>
+        <li>
+          <a href="https://people.sc.fsu.edu/~jburkardt/datasets/cities/sp11_xy.png">sp11_xy.png</a>,
+          a PNG image of
+          the (X,Y) coordinates of each city.
+        </li>
+      </ul>
+    <p></p>
+
+    <p>
+      <b>UK12</b> describes 12 cities, with integer distances
+      representing the travel time, in minutes, between pairs of cities.
+      </p><ul>
+        <li>
+          <a href="https://people.sc.fsu.edu/~jburkardt/datasets/cities/uk12_main.txt">uk12_main.txt</a>,
+          is the main file.
+        </li>
+        <li>
+          <a href="https://people.sc.fsu.edu/~jburkardt/datasets/cities/uk12_code.txt">uk12_code.txt</a>,
+          contains a code for each city.
+        </li>
+        <li>
+          <a href="https://people.sc.fsu.edu/~jburkardt/datasets/cities/uk12_dist.txt">uk12_dist.txt</a>,
+          the city-to-city distance matrix.
+        </li>
+        <li>
+          <a href="https://people.sc.fsu.edu/~jburkardt/datasets/cities/uk12_name.txt">uk12_name.txt</a>,
+          the name of each city.
+        </li>
+        <li>
+          <a href="https://people.sc.fsu.edu/~jburkardt/datasets/cities/uk12_xy.txt">uk12_xy.txt</a>,
+          the (X,Y) coordinates of each city,
+          estimated from the distance table.
+        </li>
+        <li>
+          <a href="https://people.sc.fsu.edu/~jburkardt/datasets/cities/uk12_xy.png">uk12_xy.png</a>,
+          a PNG image of
+          the (X,Y) coordinates of each city.
+        </li>
+      </ul>
+    <p></p>
+
+    <p>
+      <b>USCA312</b> describes 312 cities in the US and Canada.
+      Distances between the city are computed from latitude and longitude,
+      not from road mileage.
+      </p><ul>
+        <li>
+          <a href="https://people.sc.fsu.edu/~jburkardt/datasets/cities/usca312_main.txt">usca312_main.txt</a>,
+          is the main file.
+        </li>
+        <li>
+          <a href="https://people.sc.fsu.edu/~jburkardt/datasets/cities/usca312_dist.txt">usca312_dist.txt</a>,
+          is the city-to-city distance, in miles, computed
+          from the latitude/longitude data and rounded to
+          integers.
+        </li>
+        <li>
+          <a href="https://people.sc.fsu.edu/~jburkardt/datasets/cities/usca312_dms.txt">usca312_dms.txt</a>,
+          the latitude and longitude of each city.
+        </li>
+        <li>
+          <a href="https://people.sc.fsu.edu/~jburkardt/datasets/cities/usca312_name.txt">usca312_name.txt</a>,
+          the name of each city.
+        </li>
+        <li>
+          <a href="https://people.sc.fsu.edu/~jburkardt/datasets/cities/usca312_xy.txt">usca312_xy.txt</a>,
+          the XY coordinates of the cities.
+        </li>
+        <li>
+          <a href="https://people.sc.fsu.edu/~jburkardt/datasets/cities/usca312_xy.png">usca312_xy.png</a>,
+          a PNG image of
+          the XY coordinates of the cities.
+        </li>
+      </ul>
+    <p></p>
+
+    <p>
+      <b>USCAP</b> describes the location of the 50 US state capitals.
+      </p><ul>
+        <li>
+          <a href="https://people.sc.fsu.edu/~jburkardt/datasets/cities/uscap_main.txt">uscap_main.txt</a>,
+          is the main file.
+        </li>
+        <li>
+          <a href="https://people.sc.fsu.edu/~jburkardt/datasets/cities/uscap_ll.txt">uscap_ll.txt</a>,
+          the latitude and longitude of each capital.
+        </li>
+        <li>
+          <a href="https://people.sc.fsu.edu/~jburkardt/datasets/cities/uscap_name.txt">uscap_name.txt</a>,
+          the name and state of each capital.
+        </li>
+        <li>
+          <a href="https://people.sc.fsu.edu/~jburkardt/datasets/cities/uscap_xy.txt">uscap_xy.txt</a>,
+          the (X,Y) coordinates of each capital using a cylindrical projection.
+        </li>
+        <li>
+          <a href="https://people.sc.fsu.edu/~jburkardt/datasets/cities/uscap.png">uscap.png</a>,
+          an image of the capital locations on the cylindrical projection.
+        </li>
+      </ul>
+    <p></p>
+
+    <p>
+      <b>WG22</b> describes 22 cities in West Germany and comes from Spaeth.
+      </p><ul>
+        <li>
+          <a href="https://people.sc.fsu.edu/~jburkardt/datasets/cities/wg22_main.txt">wg22_main.txt</a>,
+          is the main file.
+        </li>
+        <li>
+          <a href="https://people.sc.fsu.edu/~jburkardt/datasets/cities/wg22_dist.txt">wg22_dist.txt</a>,
+          the city-to-city distance matrix.
+        </li>
+        <li>
+          <a href="https://people.sc.fsu.edu/~jburkardt/datasets/cities/wg22_name.txt">wg22_name.txt</a>,
+          the name of each city.
+        </li>
+        <li>
+          <a href="https://people.sc.fsu.edu/~jburkardt/datasets/cities/wg22_xy.txt">wg22_xy.txt</a>,
+          the (X,Y) coordinates of each city.
+        </li>
+        <li>
+          <a href="https://people.sc.fsu.edu/~jburkardt/datasets/cities/wg22_xy.png">wg22_xy.png</a>,
+          a PNG image of
+          the (X,Y) coordinates of each city.
+        </li>
+      </ul>
+    <p></p>
+
+    <p>
+      <b>WG59</b> describes 59 cities in West Germany, and comes from Spaeth.
+      </p><ul>
+        <li>
+          <a href="https://people.sc.fsu.edu/~jburkardt/datasets/cities/wg59_main.txt">wg59_main.txt</a>,
+          is the main file.
+        </li>
+        <li>
+          <a href="https://people.sc.fsu.edu/~jburkardt/datasets/cities/wg59_dist.txt">wg59_dist.txt</a>,
+          the city-to-city distance matrix.
+        </li>
+        <li>
+          <a href="https://people.sc.fsu.edu/~jburkardt/datasets/cities/wg59_name.txt">wg59_name.txt</a>,
+          the name of each city.
+        </li>
+        <li>
+          <a href="https://people.sc.fsu.edu/~jburkardt/datasets/cities/wg59_xy.txt">wg59_xy.txt</a>,
+          contains the (X,Y) coordinates of each city.
+        </li>
+        <li>
+          <a href="https://people.sc.fsu.edu/~jburkardt/datasets/cities/wg59_xy.png">wg59_xy.png</a>,
+          a PNG image of
+          the (X,Y) coordinates of each city.
+        </li>
+      </ul>
+    <p></p>
+
+    <p>
+      You can go up one level to <a href="https://people.sc.fsu.edu/~jburkardt/datasets/datasets.html">
+      the DATASETS directory</a>.
+    </p>
+
+    <hr>
+
+    <i>
+      Last revised on 15 July 2011.
+    </i>
+
+    <!-- John Burkardt -->
+
+  
+
+  <!-- Initial html skeleton created by HTMLINDEX. -->
+
+
+</body></html>

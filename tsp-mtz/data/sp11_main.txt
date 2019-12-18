@@ -1,0 +1,31 @@
+# sp11_main.txt
+#
+#  Discussion:
+#
+#    The data is an artificial integer distance matrix for 11 objects.  
+#    The distances here are not guaranteed to be geometrically realizable 
+#    or meaningful.
+#
+#    In this example, each of the numbers between 1 and 55 shows up
+#    as a distance between one pair of distinct objects.
+#
+#  Modified:
+#
+#    06 November 2002
+#
+#  Author:
+#
+#    John Burkardt
+#
+#  Reference:
+#
+#    Helmut Spaeth,
+#    Cluster Dissection and Analysis,
+#    Theory, FORTRAN Programs, Examples,
+#    Ellis Horwood, 1985, page 198.
+#
+size  11
+geom  none
+code  sp11_code.txt
+dist  sp11_dist.txt
+name  sp11_code.txt

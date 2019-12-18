@@ -1,0 +1,28 @@
+# sp11_code.txt
+#
+#  Discussion:
+#
+#    This file lists a brief code for each city.
+#
+#  Modified:
+#
+#    06 November 2002
+#
+#  Reference:
+#
+#    Helmut Spaeth,
+#    Cluster Dissection and Analysis,
+#    Theory, FORTRAN Programs, Examples,
+#    Ellis Horwood, 1985, page 198.
+#
+Ape
+Big
+Cow
+Dog
+Egg
+Fox
+Gas
+Hit
+Ick
+Jab
+Kim
