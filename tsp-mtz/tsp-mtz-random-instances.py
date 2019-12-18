@@ -17,9 +17,6 @@ def plot_locations_and_edges(Edges):
     plt.title("Matchings of Rival Teams")
     plt.show()
 
-
-
-
 # Random instances:
 
 # this constructs a random distance matrix
