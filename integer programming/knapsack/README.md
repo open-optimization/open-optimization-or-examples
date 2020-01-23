@@ -1,5 +1,28 @@
 # Knapsack Problem
 
+Knapsack problem can take different forms depending on if the variables
+are binary or integer. The binary version means that there is only one
+item of each item type that can be taken. This is typically illustrated
+as a backpack (knapsack) and some items to put into it (see ), but has
+applications in many contexts.
+
+Given an non-negative weight vector $a \in \mathbb{Q}^n_+$, a capacity
+$b \in \mathbb{Q}_+$, and objective coefficients $c \in \mathbb{Q}^n$,
+$$\begin{split}
+\max \ \ & c^\top x\\
+\text{s.t.}\ \ & a^\top x \leq b\\
+& x \in \{0,1\}^n
+\end{split}$$
+
+
+Given an non-negative weight vector \(a \in \mathbb{Q}^n_+\), a capacity
+\(b \in \mathbb{Q}_+\), and objective coefficients
+\(c \in \mathbb{Q}^n\), \[\begin{split}
+\max \ \ & c^\top x\\
+\text{s.t.}\ \ & a^\top x \leq b\\
+& x \in \{0,1\}^n
+\end{split}\]
+
 The knapsack problem can take different forms depending on if the variables are binary or integer.  The binary version means that there is only one item of each item type that can be taken.  This is typically illustrated as a backpack (knapsack) and some items to put into it (see  \autoref{fig:wiki/File/knapsack}), but has applications in many contexts.    This problem can be phrased as the following mathematical optimization problem:
 
 Given an non-negative weight vector $$a \in Q^n_+$$, a capacity $$b \in Q_+$$, and objective coefficients $$c \in Q^n$$, 
