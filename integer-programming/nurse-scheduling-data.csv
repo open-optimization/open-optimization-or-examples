@@ -1,0 +1,9 @@
+Day,Schedule 1,Schedule 2,Schedule 3,Schedule 4,Schedule 5,Nurses Required
+Monday,X,,X,,,20
+Tuesday,X,,,,X,25
+Wednesday,,,X,X,,26
+Thursday,,X,,,X,26
+Friday,,X,,X,X,30
+Saturday,,X,,X,,30
+Sunday,X,,X,,,35
+Weekly wage,525,470,550,500,425,
